@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+	<div class="main-wrap container">
+		<h1>Pomodoro Clock</h1><br>
+
+		<div class="row">
+			<div class="col-lg-3">
+			</div>
+			<div class="break col-lg-3">
+				<h4>BREAK LENGTH</h4>
+				<ul class="break-li">
+					<li id="break-minus">-</li>
+					<li id="break-length">1</li>
+					<li id="break-plus">+</li>
+				</ul>
+			</div>
+			<div class="session col-lg-3">
+				<h4>SESSION LENGTH</h4>
+				<ul class="session-li">
+					<li id="session-minus">-</li>
+					<li id="session-length">2</li>
+					<li id="session-plus">+</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3">
+			</div>
+		</div><!-- end of row -->
+
+		<div class="row">
+			<div class="timer">
+				<h3 id="myHeader">Session!</h3><br>
+				<ul class="timer-ul">
+					<li id="minutes">2</li>
+					<li id="dots">:</li>
+					<li id="seconds">00</li>
+				</ul>
+
+				<ul class="break-timer-ul">
+					<li id="break-minutes">1</li>
+					<li id="break-dots">:</li>
+					<li id="break-seconds">00</li>
+				</ul>
+				
+			</div>
+
+		</div>
+		<div class="row">
+			<p class="details">
+				Click the clock to begin countdown!<br />
+				Tapping the clock will pause or unpause the timer! <br />
+				To adjust the clock use the - + buttons and choose your new times when the clock is paused.
+			</p>
+		</div>
+
+	</div> <!-- end of main-wrap -->
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
+
+
